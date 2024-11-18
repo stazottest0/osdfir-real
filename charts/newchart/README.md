@@ -130,9 +130,9 @@ Please be cautious before doing it.
 | ------------------------------- | -------------------------------------------------------------------------------------------- | ------- |
 | `global.timesketch.enabled`     | Enables the Timesketch deployment (only used in the main OSDFIR Infrastructure Helm chart)   | `false` |
 | `global.timesketch.servicePort` | Timesketch service port (overrides `timesketch.service.port`)                                | `nil`   |
-| `global.turbinia.enabled`       | Enables the Turbinia deployment (only used within the main OSDFIR Infrastructure Helm chart) | `false` |
+| `global.turbinia.enabled`       | Enables the Turbinia deployment (only used within the main OSDFIR Infrastructure Helm chart) | `true`  |
 | `global.turbinia.servicePort`   | Turbinia API service port (overrides `turbinia.service.port`)                                | `nil`   |
-| `global.yeti.enabled`           | Enables the Yeti deployment (only used in the main OSDFIR Infrastructure Helm chart)         | `false` |
+| `global.yeti.enabled`           | Enables the Yeti deployment (only used in the main OSDFIR Infrastructure Helm chart)         | `true`  |
 | `global.yeti.servicePort`       | Yeti API service port (overrides `yeti.api.service.port`)                                    | `nil`   |
 | `global.existingPVC`            | Existing claim for HashR persistent volume (overrides `persistent.name`)                     | `""`    |
 | `global.storageClass`           | StorageClass for the HashR persistent volume (overrides `persistent.storageClass`)           | `""`    |
