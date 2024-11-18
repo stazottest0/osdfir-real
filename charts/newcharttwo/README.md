@@ -128,7 +128,7 @@ Please be cautious before doing it.
 
 | Name                            | Description                                                                                  | Value   |
 | ------------------------------- | -------------------------------------------------------------------------------------------- | ------- |
-| `global.timesketch.enabled`     | Enables the Timesketch deployment (only used in the main OSDFIR Infrastructure Helm chart)   | `false` |
+| `global.timesketch.enabled`     | Enables the Timesketch deployment (only used in the main OSDFIR Infrastructure Helm chart)   | `true`  |
 | `global.timesketch.servicePort` | Timesketch service port (overrides `timesketch.service.port`)                                | `nil`   |
 | `global.turbinia.enabled`       | Enables the Turbinia deployment (only used within the main OSDFIR Infrastructure Helm chart) | `false` |
 | `global.turbinia.servicePort`   | Turbinia API service port (overrides `turbinia.service.port`)                                | `nil`   |
